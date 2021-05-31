@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* <!-- HEADER section START  --> */
+
+header {
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+header img {
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.search-img {
+    background-image: url(loupe.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 2px 2px;
+}
+
+header ::placeholder {
+    padding-left: 20px;
+}
+
+/* <!-- HEADER section END  --> */
+
+/* <!-- HERO section START  --> */
+
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 20rem;
+    background-image: url(paws-pattern.jpg);
+}
+
+.hero h3 {
+    text-align: center;
+    color: rgb(15, 15, 15);
+    padding: 8rem 0;
+    margin: 0;
+}
+
+/* <!-- HERO section END  --> */
+
+/* <!-- CONTENT section START  --> */
+
+/* <!-- 3 ROUND IMAGES section START  --> */
+
+.content-img {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-img img {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* <!-- 3 ROUND IMAGES section END  --> */
+
+.content-text {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.content-text h4 {
+    color: rgb(0, 128, 255);
+}
+
+/* <!-- 2 ROUND IMAGES WITH TEXT section START  --> */
+
+.container-dog {
+    text-align: center;
+}
+
+.container-dog img {
+    padding-top: 1rem;
+}
+
+.colored {
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.container-dog p {
+    margin: 0;
+}
+
+.text-margin {
+    margin-top: 0;
+}
+
+.container-dog img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* <!-- 2 ROUND IMAGES WITH TEXT section END  --> */
+
+.blue-break {
+    margin-top: 1rem;
+    background-color: rgb(0, 128, 255);
+    height: 0.5rem;
+}
+
+/* <!-- FOOTER section START  --> */
+
+footer {
+    text-align: center;
+    background-color: gray;
+    padding-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    color: lightgray;
+}
+
+footer p {
+    margin-top: 0;
+    padding-top: 0.5rem;
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+/* <!-- FOOTER section END  --> */
+
+@media only screen and (min-width: 768px) {
+    /* <!-- HEADER section START  --> */
+    header {
+        display: flex;
+        justify-content: space-around;
+        max-height: 2rem;
+        padding: 0.5rem;
+    }
+    header img {
+        padding: 0;
+        align-items: center;
+        height: 2rem;
+    }
+    .search-img {
+        background-position: 5px 5px;
+    }
+    /* <!-- HEADER section END  --> */
+    /* <!-- HERO section START  --> */
+    .hero {
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: -7rem;
+    }
+    .hero h3 {
+        padding: 11rem;
+        font-size: xx-large;
+    }
+    /* <!-- HERO section END  --> */
+    /* <!-- 3 ROUND IMAGES section START  --> */
+    .content-img img {
+        width: 200px;
+        height: 200px;
+    }
+    .content {
+        padding: 0 15%;
+    }
+    /* <!-- 3 ROUND IMAGES section END  --> */
+    /* <!-- 2 ROUND IMAGES WITH TEXT section START  --> */
+    .container-dog {
+        margin: 4rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /* <!-- 2 ROUND IMAGES WITH TEXT section END  --> */
+    /* <!-- FOOTER section START  --> */
+    footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 15%;
+    }
+    /* <!-- FOOTER section END  --> */
+}
